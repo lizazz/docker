@@ -1,4 +1,4 @@
-FROM php:8.1.1-fpm
+FROM php:8.2-fpm
 MAINTAINER PHPtoday.ru <slavikpetrechenko@gmail.com>
 
 RUN apt-get update && apt-get install -y \
